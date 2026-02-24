@@ -1,0 +1,256 @@
+# 🍽️ MealDash
+
+Full‑stack food ordering platform with **User App (Frontend)**, **Admin Dashboard**, and **Backend API**.
+
+---
+
+## # Project Structure
+
+```
+MealDash/
+├── frontend/   → User web app (React + Vite)
+├── admin/      → Admin dashboard (React + Vite)
+└── backend/    → REST API (Node.js + Express + MongoDB)
+```
+
+---
+
+## # Features
+
+### 1. User App
+
+- Browse food menu
+- Add items to cart
+- User authentication
+- Place orders
+- Online payment verification
+- View order history
+
+### 2. Admin Dashboard
+
+- Add / delete food items
+- View all orders
+- Manage menu images
+
+### 3. Backend API
+
+- JWT authentication
+- Cart management
+- Order processing
+- Payment verification
+- Image upload
+- MongoDB database
+
+---
+
+## # Tech Stack
+
+### 1. Frontend & Admin
+
+- React
+- Vite
+- React Router DOM
+- Axios
+- React Toastify
+
+### 2. Backend
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT
+- bcrypt
+- Multer
+- Stripe
+- CORS
+- dotenv
+
+---
+
+## # Environment Variables (Backend)
+
+Create a `.env` file inside **backend/**:
+
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+STRIPE_SECRET_KEY=your_stripe_secret
+PORT=4000
+```
+
+---
+
+## # Installation
+
+Install dependencies for all apps:
+
+### 1. Backend
+
+```
+cd backend
+npm install
+```
+
+### 2. Frontend
+
+```
+cd frontend
+npm install
+```
+
+### 3. Admin
+
+```
+cd admin
+npm install
+```
+
+---
+
+## # Running the Project
+
+**1. Backend**
+
+```
+cd backend
+npm run server
+```
+
+**2. Frontend (User App)**
+
+```
+cd frontend
+npm run dev
+```
+
+**3. Admin Dashboard**
+
+```
+cd admin
+npm run dev
+```
+
+---
+
+## # Default URLs
+
+- User App → [http://localhost:5173](http://localhost:5173)
+- Admin Panel → [http://localhost:5174](http://localhost:5174)
+- Backend API → [http://localhost:4000](http://localhost:4000)
+
+---
+
+## # API Base URL
+
+Frontend should use:
+
+```
+http://localhost:4000
+```
+
+---
+
+## # Screenshots
+
+### 1. Homepage — Top Section
+
+Landing page with featured food items and navigation bar.
+
+![Homepage Top](./ScreenShots/1.home-page-Top.png)
+
+---
+
+### 2. Homepage — Food Listing
+
+Dynamic food cards fetched from backend.
+
+![Homepage Middle](./ScreenShots/2.home-page-middle.png)
+
+---
+
+### 3. Homepage — Footer
+
+Footer with app info and links.
+
+![Homepage Footer](./ScreenShots/3.home-page-footer.png)
+
+---
+
+### 4. Login / Register
+
+User authentication popup for login and signup.
+
+![Login Register](./ScreenShots/4.login-register.png)
+
+---
+
+### 5. Cart Page
+
+Selected items with quantity control and total calculation.
+
+![Cart](./ScreenShots/5.user-cart.png)
+
+---
+
+### 6. Checkout Page
+
+Address form and order summary before payment.
+
+![Checkout](./ScreenShots/6.order-chechkout.png)
+
+---
+
+### 7. Payment Integration
+
+Stripe payment gateway interface.
+
+![Payment](./ScreenShots/7.payment.png)
+
+---
+
+### 8. User Orders History
+
+List of all orders placed by the user.
+
+![Orders](./ScreenShots/8.user-orders-log.png)
+
+---
+
+### 9. Admin — Add Food
+
+Admin panel form to add new food items.
+
+![Admin Add Food](./ScreenShots/9.admin-add-food.png)
+
+---
+
+### 10. Admin — Food List
+
+View and manage all added food items.
+
+![Admin Food List](./ScreenShots/10.admin-addedfood-list.png)
+
+---
+
+### 11. Admin — Orders Management
+
+Admin dashboard to manage user orders.
+
+![Admin Orders](./ScreenShots/11.admin-orders-management.png)
+
+---
+
+## # Live Demo
+
+- User App: https://your-frontend-link
+- Admin Panel: https://your-admin-link
+- API: https://your-backend-link
+
+---
+
+## # Author
+
+**Prathamesh Giradkar**
+
+- GitHub: https://github.com/Prathamesh910
+- LinkedIn: https://www.linkedin.com/in/prathameshgiradkar/
