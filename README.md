@@ -1,6 +1,15 @@
 # 🍽️ MealDash
 
-Full‑stack food ordering platform with **User App (Frontend)**, **Admin Dashboard**, and **Backend API**.
+**MealDash** is a modern, full-stack food ordering platform designed to provide a seamless experience for both customers and restaurant administrators. The platform consists of three main components:
+
+1. **User App (Frontend):**  
+   A responsive and interactive web application built with React and Vite, allowing users to browse a curated food menu, add items to their cart, place orders, and track order history. The user app integrates with a payment gateway for secure online payments, ensuring a smooth ordering experience.
+
+2. **Admin Dashboard (Frontend):**  
+   A dedicated admin panel built with React and Vite that enables restaurant staff or administrators to manage the menu, add or remove food items, monitor incoming orders, and handle order status updates. Admins can also manage food images and pricing dynamically, making menu management fast and convenient.
+
+3. **Backend API:**  
+   A robust Node.js and Express server with MongoDB as the database. The backend handles user authentication with JWT, cart management, order processing, payment verification, and secure image uploads. The RESTful API serves both the frontend user app and admin dashboard, ensuring smooth communication and real-time updates.
 
 ---
 
@@ -242,9 +251,9 @@ Admin dashboard to manage user orders.
 
 ## # Live Demo
 
-- User App: https://your-frontend-link
-- Admin Panel: https://your-admin-link
-- API: https://your-backend-link
+- User App: https://mealdash-frontend-ng75.onrender.com
+- Admin Panel: https://mealdash-admin-1v53.onrender.com
+- API: https://mealdash-p5sp.onrender.com
 
 ---
 
