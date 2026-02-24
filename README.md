@@ -252,7 +252,6 @@ Admin dashboard to manage user orders.
 ## # Live Demo
 
 - User App: https://mealdash-frontend-ng75.onrender.com
-- Admin Panel: https://mealdash-admin-1v53.onrender.com
 - API: https://mealdash-p5sp.onrender.com
 
 ---
