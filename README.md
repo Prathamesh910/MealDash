@@ -12,6 +12,102 @@
    A robust Node.js and Express server with MongoDB as the database. The backend handles user authentication with JWT, cart management, order processing, payment verification, and secure image uploads. The RESTful API serves both the frontend user app and admin dashboard, ensuring smooth communication and real-time updates.
 
 ---
+## # Screenshots
+
+### 1. Homepage — Top Section
+
+Landing page with featured food items and navigation bar.
+
+![Homepage Top](./ScreenShots/1.home-page-Top.png)
+
+---
+
+### 2. Homepage — Food Listing
+
+Dynamic food cards fetched from backend.
+
+![Homepage Middle](./ScreenShots/2.home-page-middle.png)
+
+---
+
+### 3. Homepage — Footer
+
+Footer with app info and links.
+
+![Homepage Footer](./ScreenShots/3.home-page-footer.png)
+
+---
+
+### 4. Login / Register
+
+User authentication popup for login and signup.
+
+![Login Register](./ScreenShots/4.login-register.png)
+
+---
+
+### 5. Cart Page
+
+Selected items with quantity control and total calculation.
+
+![Cart](./ScreenShots/5.user-cart.png)
+
+---
+
+### 6. Checkout Page
+
+Address form and order summary before payment.
+
+![Checkout](./ScreenShots/6.order-chechkout.png)
+
+---
+
+### 7. Payment Integration
+
+Stripe payment gateway interface.
+
+![Payment](./ScreenShots/7.payment.png)
+
+---
+
+### 8. User Orders History
+
+List of all orders placed by the user.
+
+![Orders](./ScreenShots/8.user-orders-log.png)
+
+---
+
+### 9. Admin — Add Food
+
+Admin panel form to add new food items.
+
+![Admin Add Food](./ScreenShots/9.admin-add-food.png)
+
+---
+
+### 10. Admin — Food List
+
+View and manage all added food items.
+
+![Admin Food List](./ScreenShots/10.admin-addedfood-list.png)
+
+---
+
+### 11. Admin — Orders Management
+
+Admin dashboard to manage user orders.
+
+![Admin Orders](./ScreenShots/11.admin-orders-management.png)
+
+---
+
+## # Live Demo
+
+- User App: https://mealdash-frontend-ng75.onrender.com
+- API: https://mealdash-p5sp.onrender.com
+
+---
 
 ## # Project Structure
 
@@ -156,103 +252,6 @@ Frontend should use:
 ```
 http://localhost:4000
 ```
-
----
-
-## # Screenshots
-
-### 1. Homepage — Top Section
-
-Landing page with featured food items and navigation bar.
-
-![Homepage Top](./ScreenShots/1.home-page-Top.png)
-
----
-
-### 2. Homepage — Food Listing
-
-Dynamic food cards fetched from backend.
-
-![Homepage Middle](./ScreenShots/2.home-page-middle.png)
-
----
-
-### 3. Homepage — Footer
-
-Footer with app info and links.
-
-![Homepage Footer](./ScreenShots/3.home-page-footer.png)
-
----
-
-### 4. Login / Register
-
-User authentication popup for login and signup.
-
-![Login Register](./ScreenShots/4.login-register.png)
-
----
-
-### 5. Cart Page
-
-Selected items with quantity control and total calculation.
-
-![Cart](./ScreenShots/5.user-cart.png)
-
----
-
-### 6. Checkout Page
-
-Address form and order summary before payment.
-
-![Checkout](./ScreenShots/6.order-chechkout.png)
-
----
-
-### 7. Payment Integration
-
-Stripe payment gateway interface.
-
-![Payment](./ScreenShots/7.payment.png)
-
----
-
-### 8. User Orders History
-
-List of all orders placed by the user.
-
-![Orders](./ScreenShots/8.user-orders-log.png)
-
----
-
-### 9. Admin — Add Food
-
-Admin panel form to add new food items.
-
-![Admin Add Food](./ScreenShots/9.admin-add-food.png)
-
----
-
-### 10. Admin — Food List
-
-View and manage all added food items.
-
-![Admin Food List](./ScreenShots/10.admin-addedfood-list.png)
-
----
-
-### 11. Admin — Orders Management
-
-Admin dashboard to manage user orders.
-
-![Admin Orders](./ScreenShots/11.admin-orders-management.png)
-
----
-
-## # Live Demo
-
-- User App: https://mealdash-frontend-ng75.onrender.com
-- API: https://mealdash-p5sp.onrender.com
 
 ---
 
